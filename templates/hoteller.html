@@ -1,0 +1,10 @@
+{% extends "mal.html" %}
+{% block innhold %}
+    <h1>Her er våre hoteller</h1>
+    <ol>
+        <li>{{data}}</li>
+        {% for hotell in hoteller %}
+            <li>{{hotell["navn"]}}</li>
+        {% endfor %}
+    </ol>
+{% endblock %}

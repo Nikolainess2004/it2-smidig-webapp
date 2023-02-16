@@ -1,0 +1,37 @@
+{
+    "hoteller": [
+      {
+        "navn": "Grand Hotel Miami",
+        "sted": "Miami, Florida, USA",
+        "område": "South Beach",
+        "land": "USA",
+        "basseng": true,
+        "strand": true,
+        "restaurant": true,
+        "stjerner": 5,
+        "treningsrom": true
+      },
+      {
+        "navn": "Hôtel de Paris",
+        "sted": "Paris, Frankrike",
+        "område": "Sentrum",
+        "land": "Frankrike",
+        "basseng": false,
+        "strand": false,
+        "restaurant": true,
+        "stjerner": 4,
+        "treningsrom": true
+      },
+      {
+        "navn": "Sydney Harbour Marriott Hotel",
+        "sted": "Sydney, Australia",
+        "område": "Sentrum",
+        "land": "Australia",
+        "basseng": true,
+        "strand": false,
+        "restaurant": true,
+        "stjerner": 5,
+        "treningsrom": true
+      }
+    ]
+  }

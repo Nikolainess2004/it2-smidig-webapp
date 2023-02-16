@@ -1,0 +1,44 @@
+{
+    "reiser": [
+      {
+        "sted": "Cancun, Mexico",
+        "område": "Yucatán-halvøya",
+        "land": "Mexico",
+        "kontinent": "Nord-Amerika",
+        "temperatur": 28,
+        "strandby": true
+      },
+      {
+        "sted": "Kapstaden, Sør-Afrika",
+        "område": "Western Cape",
+        "land": "Sør-Afrika",
+        "kontinent": "Afrika",
+        "temperatur": 22,
+        "strandby": true
+      },
+      {
+        "sted": "Roma, Italia",
+        "område": "Lazio",
+        "land": "Italia",
+        "kontinent": "Europa",
+        "temperatur": 25,
+        "strandby": false
+      },
+      {
+        "sted": "Bali, Indonesia",
+        "område": "Indonesia",
+        "land": "Indonesia",
+        "kontinent": "Asia",
+        "temperatur": 30,
+        "strandby": true
+      },
+      {
+        "sted": "Auckland, New Zealand",
+        "område": "North Island",
+        "land": "New Zealand",
+        "kontinent": "Oceania",
+        "temperatur": 20,
+        "strandby": false
+      }
+    ]
+  }

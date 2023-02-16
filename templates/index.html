@@ -1,13 +1,34 @@
+{% extends "mal.html" %}
+{% block innhold %}
+
 <!DOCTYPE html>
 <html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask - VGS</title>
+    <title>Ferieplanleggeren.no</title>
 </head>
 <body>
-    <h1>Hallo, {{navn}}!</h1>
+    <h1>Velkommer til Ferieplanleggeren</h1>
+    <p>Vi hjelper deg med å finne det perfekte sted for din framtidige reise</p>
+    <form action="/" method="post">
+        <label for="steder">Skrive noen ønsker for din reise her:</label>
+        <input type="text" name="steder">
+        <button type="submit">SØK</button>
+    </form>
+    <img src="/bilder/mexico.jpg" alt="">
+    <h3>Her er dine tidligere søk:</h3>
+    <ul>
+        {% for steder in liste %}
+            <li>{{steder}}</li>
+        {% endfor %}
+    </ul>
+
 </body>
 </html>
+
+{% endblock %}
+
+
 

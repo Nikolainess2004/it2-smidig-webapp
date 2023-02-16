@@ -1,19 +1,22 @@
-# Navn på app her
+# Ferieplanlegger-app
 
-Skriv en kort beskrivelse av appen her  
+Jeg skal lage en ferieplanlegger med flask, html, css. Appen skal gjøre det mulig å finne ulike reisemål ved hjelp av sted, område, land, temperatur, kontinent, by/ikke by, osv.
 
 - [Prosjektbeskrivelse](./prosjektbeskrivelse.md)
 
 ## Skal gjøres
 
-- [ ] Hva er planen din?
-- [x] Eksempel på ferdig gjøremål
+- Lage HTML-mal i Flask
+  - skal gi muligheten til å finne ønsket sted ut ifra ulike filtre
+- Legge til mulighet for å søke etter sted
+- Legge til vær idag og neste dager
 
 ## Logg
 
 ### Uke 1
 
-- Hva har du gjort denne uka?
+- Startet prosjektet
+- Lagt inn data i flask (vil mest sansynlig endres senere)
 
 ## Tilbakemeldinger
 
