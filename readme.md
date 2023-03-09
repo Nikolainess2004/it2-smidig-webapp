@@ -18,6 +18,16 @@ Jeg skal lage en ferieplanlegger med flask, html, css. Appen skal gjøre det mul
 - Startet prosjektet
 - Lagt inn data i flask (vil mest sansynlig endres senere)
 
+### Uke 2
+
+- Laget søkefelt
+- Begynt på undernettsider
+- Stylet siden litt enkelt, blir mer etterhvert
+
+### Uke 3
+
+-
+
 ## Tilbakemeldinger
 
 - Fyll ut tilbakemeldinger her

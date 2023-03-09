@@ -10,7 +10,7 @@
     <title>Ferieplanleggeren.no</title>
 </head>
 <body>
-    <h1>Velkommer til Ferieplanleggeren</h1>
+    <h1>Velkommen til Ferieplanleggeren</h1>
     <p>Vi hjelper deg med å finne det perfekte sted for din framtidige reise</p>
     <form action="/" method="post">
         <label for="steder">Skrive noen ønsker for din reise her:</label>
@@ -24,6 +24,10 @@
             <li>{{steder}}</li>
         {% endfor %}
     </ul>
+    <form id="knapp" action="/steder/slett/{{sted}}">
+        <button type="submit">x</button>
+    </form>      
+    <p>Filtrer dine søk:</p>
 
 </body>
 </html>

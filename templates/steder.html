@@ -1,7 +1,10 @@
 {% extends "mal.html" %}
 {% block innhold %}
     <h1>Her er alle våre feriedestinasjoner</h1>
-    <div>
-        {{data}}
-    </div>
+    <ol>
+        <li>{{data}}</li>
+        {% for sted in data["steder"] %}
+            <li>{{sted["navn"]}}</li>
+        {% endfor %}
+    </ol>
 {% endblock %}

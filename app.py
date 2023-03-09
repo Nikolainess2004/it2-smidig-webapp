@@ -5,6 +5,8 @@ app = Flask(__name__)
 
 liste = []
 
+steder= []
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == "POST":
@@ -25,5 +27,10 @@ def steder():
     data=json.load(fil)
     fil.close()
     return render_template("steder.html", data=data)
+
+@app.route("/steder/slett/<id>")
+def rute_slett(id):
+    steder.remove(id)
+    return steder()
 
 app.run(debug=True)
